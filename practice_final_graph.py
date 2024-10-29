@@ -22,8 +22,9 @@ import matplotlib.dates as mdates
 
 #open file
 url_electricity = "https://raw.githubusercontent.com/urviprajapati12/python_2024/refs/heads/main/new_2022-2024_consumption.csv"
+url_price= "https://raw.githubusercontent.com/urviprajapati12/python_2024/refs/heads/main/new_sahkon-hinta-010121-231024.csv"
 comsumption_data = pd.read_csv('url_electricity',delimiter= ';')
-new_price_data = pd.read_csv('new_sahkon-hinta-010121-231024.csv',delimiter= ';')
+new_price_data = pd.read_csv('url_price',delimiter= ';')
 #display(comsumption_data.head())
 #display(new_price_data.head())
 
