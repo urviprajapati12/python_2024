@@ -21,7 +21,8 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 #open file
-comsumption_data = pd.read_csv('new_2022-2024_consumption.csv',delimiter= ';')
+url_electricity = "https://raw.githubusercontent.com/urviprajapati12/python_2024/refs/heads/main/new_2022-2024_consumption.csv"
+comsumption_data = pd.read_csv('url_electricity',delimiter= ';')
 new_price_data = pd.read_csv('new_sahkon-hinta-010121-231024.csv',delimiter= ';')
 #display(comsumption_data.head())
 #display(new_price_data.head())
