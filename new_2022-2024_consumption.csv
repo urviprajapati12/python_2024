@@ -1,4 +1,4 @@
-﻿Time;Yksiaikainen (kWh);Status;Temperature;Temperature;Yksiaikainen (kWh);Energy(kWh);Temperature
+﻿Time;Yksiaikainen (kWh);Status;Temperature1;Temperature2;Yksiaikainen (kWh);Energy(kWh);Temperature
 1.4.2022 00:00;0,42;Metered;-11,1;;;0,42;-11,1
 1.4.2022 01:00;0,61;Metered;-12,1;;;0,61;-12,1
 1.4.2022 02:00;0,13;Metered;-10,3;;;0,13;-10,3
